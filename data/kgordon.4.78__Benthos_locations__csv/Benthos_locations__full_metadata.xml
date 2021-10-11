@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="kgordon.4.78" scope="system" system="knb" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+    <allow>
+      <principal>uid=datastar,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=kholeck,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=teb1,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=rudstam,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+  </access>
+  <dataset scope="document">
+    <title>Benthic invertebrates in Oneida Lake, New York, 1956 to present</title>
+    <creator id="1213899118546" scope="document">
+      <individualName>
+        <givenName>Lars</givenName>
+        <surName>Rudstam</surName>
+      </individualName>
+      <organizationName>Cornell Biological Field Station</organizationName>
+      <positionName>Director</positionName>
+      <address scope="document">
+        <deliveryPoint>900 Shackelton Point Road</deliveryPoint>
+        <city>Bridgeport</city>
+        <administrativeArea>NY</administrativeArea>
+        <postalCode>13030</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(315) 633-9243</phone>
+      <electronicMailAddress>lgr1@cornell.edu</electronicMailAddress>
+      <onlineUrl>http://dnr.cals.cornell.edu/people/lars-rudstam</onlineUrl>
+    </creator>
+    <abstract>
+      <para>This dataset contains benthic invertebrate data from Ekman grab samples on Oneida Lake and is part of the collection "Cornell Oneida Lake Data".  The Cornell Biological Field Station (CBFS) serves as a primary field site for aquatic research at Cornell University (more information can be found at http://www.cbfs.dnr.cornell.edu) and is part of the Department of Natural Resources, College of Agriculture and Life Sciences, Cornell University.  The centerpiece of the station's research program is a 60+ year database on the food web of Oneida Lake, New York, that has been collected with support from the Cornell University Brown Endowment and from the New York State Department of Environmental Conservation.   The data are collected by personnel from the Cornell Biological Field Station and include limnology, benthos,  zooplankton, phytoplankton, and fish survey data, primarily from Oneida Lake and spanning 1956 to the present.  This dataset contains counts of benthic invertebrates sampled since 1956 at three to seven locations per year on Oneida Lake in central New York state.  Samples were collected using an Ekman sampler, and invertebrates were handpicked from samples and identified, taxonomic level varies.  The dataset is comprised of a primary table with a summary of the data available organized by taxonomic groups defined in the taxonomy table.  Fields also include year, depth category (shallow versus deep sites) and season. A third table contains latitude and longitude in decimal degrees for each site as well as the classification of each site as shallow or deep sites.  This is a companion data set to the book Oneida Lake: Long-term dynamics of a managed ecosystem and its fisheries, edited by LG Rudstam, EL Mills, JR Jackson and DJ Stewart and published by the American Fisheries Society, Bethesda, Maryland. It is updated annually.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Insects</keyword>
+      <keyword>Earthworms</keyword>
+      <keyword>Amphipods</keyword>
+      <keyword>Clams</keyword>
+      <keyword>Mussels</keyword>
+      <keyword>Gastropods</keyword>
+      <keyword>Leeches</keyword>
+      <keyword>Ostracods</keyword>
+      <keyword>Bryozoans</keyword>
+      <keyword>Nematodes</keyword>
+      <keyword>Planarians</keyword>
+      <keyword>Benthic Habitat</keyword>
+      <keyword>Lakes</keyword>
+      <keyword>Community structure</keyword>
+      <keywordThesaurus>Global Change Master Directory Science Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Oneida Lake, New York</keyword>
+      <keyword>Madison County, New York</keyword>
+      <keyword>Oswego County, New York</keyword>
+      <keyword>Onondaga County, New York</keyword>
+      <keyword>Oneida County, New York</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>This data set is made available under the Open Data Commons Attribution License: http://www.opendatacommons.org/licenses/by/1.0/. Users of this data set are very strongly encouraged to check with the data set Owner or the individual listed as the Contact for this data set to verify that they have the most current and correct version of the data. Users should notify the data set Owner/Contact to describe their intended use of the data set, including planned publications, and are encouraged to supply the Owner/Contact with a copy of any publication or derivative work using or citing the data set.</para>
+    </intellectualRights>
+    <coverage scope="document">
+      <geographicCoverage scope="document">
+        <geographicDescription>Standard limnological sampling sites, Oneida Lake, NY</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-76.140606</westBoundingCoordinate>
+          <eastBoundingCoordinate>-75.729718</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.256445</northBoundingCoordinate>
+          <southBoundingCoordinate>43.146888</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1956</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2020</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact id="1213899257281" scope="document">
+      <individualName>
+        <givenName>Kristen</givenName>
+        <surName>Holeck</surName>
+      </individualName>
+      <organizationName>Cornell Biological Field Station</organizationName>
+      <positionName>Research Support Specialist</positionName>
+      <address scope="document">
+        <deliveryPoint>900 Shackelton Point Road</deliveryPoint>
+        <city>Bridgeport</city>
+        <administrativeArea>NY</administrativeArea>
+        <postalCode>13030</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(315) 633-9243</phone>
+      <electronicMailAddress>kth1@cornell.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Samples of benthic invertebrates were collected from 1956 to 2014 at various intervals during (at minimum) the months of June, July, and August.  In some years, samples were collected during April, May, September, October, and November as well.  Samples were therefore classified as being either from Spring (March-May), Summer (June- August, the majority of samples), of Fall (September-November).  Depending upon the year, samples were collected at between three and seven sites located on Oneida Lake (see Benthos location table).  From 1956 to 1977, 2-5 replicate samples were collected at some of the sample sites.  Samples were collected using a 152x152 mm square (0.023 m2) Ekman grab sampler as shown in figure 12.1 of Wetzel, R. G., and G. E. Likens. 2000. Limnological analyses, 3rd edition. Springer-Verlag Inc, New York, NY, p. 191. Samples were passed through a 253 micrometer mesh screen, and preserved in ethanol and stained with rose bengal. Organisms were removed from samples without a hand lens or microscope, and categorized to various taxonomic levels, mostly family or higher level.  Since 1999, samples have been processed by Dr John Cooper. Prior to 1999, samples were processed by technicians at CBFS with varying taxonomic abilities.  Data in the summary table are organized by groups as defined in the taxonomy table.  Data are density in number per m2.  Densities were obtained by first calculating average density of the group from replicate samples to obtain an average value for each unique site – date combination.  Averages for season and depth group was then obtained from the average of these site-date combination that were included in each depthgroup/season category.  Averages were calculated separately for each year and densities in number per m2 calculated by dividing the average count per Ekman grab with the area of the grab (0.023 m2).  Not all taxa were counted during all years of the dataset and this information is available in the taxonomy table.  The value -999 is used in this table to indicate that counts for particular taxa were not collected for a given sample.  The data from 1967 to 1997 are published in Mayer, C. M., R. A. Keats, L. G. Rudstam, and E. L. Mills. 2002. Scale-dependent effects of zebra mussels on benthic invertebrates in a large eutrophic lake. Journal of The North American Benthological Society 21, 616-633.   For years 1956 to 1963, 1965-66 and 1969, chironomids were not counted.  Volumetric measures were available and the correlation between average volume and average count for years 1964, 1967-68 and 1970-71 was high.  Forcing the relationship through 0 gave the equation ChironomidCounts = 39.42 * ChironomidVolume, N=15, R2=0.864.  We used this equation to calculate chironomids counts from volume for years with missing counts.   A few samples had small dreissenid mussels that were not identified to species.  These were apportioned to zebra and quagga mussels in proportion to the identified animals. In 2019, dreissenids were not identified to species and both zebra and quagga mussels were classified as Dreissena.  Details of dreissenidfor 2019  are found in the mussel datapackage.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project scope="document">
+      <title>Cornell Biological Field Station long term dataset</title>
+      <personnel scope="document">
+        <references>1213899118546</references>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>Brown Endowment, New York State Department of Environmental Conservation</para>
+      </funding>
+    </project>
+    <dataTable id="1216841042375" scope="document">
+      <entityName>Benthos_locations.csv</entityName>
+      <entityDescription>Locations of standard benthic sampling sites on Oneida Lake, New York</entityDescription>
+      <physical id="1216841040281" scope="document">
+        <objectName>Benthos_locations.csv</objectName>
+        <size unit="byte">1784</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">ecogrid://knb/cbfs.27.9</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1216841042390" scope="document">
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Benthic invertebrate sampling site name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1216841042406" scope="document">
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>Latitude of benthic invertebrate sampling site</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <precision>.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>site location not known</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1216841042421" scope="document">
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>Longitude of benthic invertebrate sampling sites</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <precision>.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Site location not known</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1453258743769" scope="document">
+          <attributeName>DepthGroup</attributeName>
+          <attributeDefinition>Defined as shallow or deep sites</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>shallow</code>
+                    <definition>Sites closer to shore likely less than 6 m deep</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>deep</code>
+                    <definition>Sites in middle of lake likely 10 m +  deep</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1453258628115" scope="document">
+          <attributeName>Depth</attributeName>
+          <attributeDefinition>Bottom depth when known</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>bottom depth not known</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1453258813041" scope="document">
+          <attributeName>SiteNotes</attributeName>
+          <attributeDefinition>Information about the site</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Information about the site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1453258877468" scope="document">
+          <attributeName>UsageNotes</attributeName>
+          <attributeDefinition>Infromation on when site was used</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Years sites were used</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>17</numberOfRecords>
+    </dataTable>
+    <dataTable id="1454287369658" scope="document">
+      <entityName>Oneida Benthos 1956 to present.csv</entityName>
+      <physical id="1454286777760" scope="document">
+        <objectName>Oneida Benthos 1956 to present.csv</objectName>
+        <size unit="byte">41628</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>ecogrid://knb/cbfs.140.13</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1454287369659" scope="document">
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Sampling year</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454287369660" scope="document">
+          <attributeName>DepthGroup</attributeName>
+          <attributeDefinition>Bottom depth category</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>deep</code>
+                    <definition>Bottom depth over 10 m</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>shallow</code>
+                    <definition>Bay sites often less than 6 m</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454287369661" scope="document">
+          <attributeName>Season</attributeName>
+          <attributeDefinition>Collection season</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Spring</code>
+                    <definition>months March, April, May</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Summer</code>
+                    <definition>months June, July, August</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Fall</code>
+                    <definition>months September, October, November</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454287369662" scope="document">
+          <attributeName>#SamplingEvents</attributeName>
+          <attributeDefinition>Number of discrete sampling occasions defined as unique date and site</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454287369663" scope="document">
+          <attributeName>Chironomidae</attributeName>
+          <attributeDefinition>Density of chironomids (larvae, some pupae)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454287369664" scope="document">
+          <attributeName>Ephemeroptera</attributeName>
+          <attributeDefinition>Density of mayfly larvae</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454287369665" scope="document">
+          <attributeName>Trichoptera</attributeName>
+          <attributeDefinition>Density of caddisfly larvae</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454287369666" scope="document">
+          <attributeName>Other insects</attributeName>
+          <attributeDefinition>Density of other aquatic insect larvae including dipterans, odonates, megalopterans, coleopterans, hemipterans</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454287369667" scope="document">
+          <attributeName>Amphipoda</attributeName>
+          <attributeDefinition>Density of amphipods</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454287369668" scope="document">
+          <attributeName>Isopoda</attributeName>
+          <attributeDefinition>Density of isopods</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454287369669" scope="document">
+          <attributeName>Leeches</attributeName>
+          <attributeDefinition>Density of leeches - Hirudinae</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>not counted</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1454287369670" scope="document">
+          <attributeName>Oligochaeta</attributeName>
+          <attributeDefinition>Density of oligochaetes</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>not counted</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1454287369671" scope="document">
+          <attributeName>Planaria</attributeName>
+          <attributeDefinition>Density of flatworms</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>not counted</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1454287369672" scope="document">
+          <attributeName>Gastropoda</attributeName>
+          <attributeDefinition>Density of snails</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>not counted</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1454287369673" scope="document">
+          <attributeName>Clams</attributeName>
+          <attributeDefinition>Density of clams (fingernail clams and unionids)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>not counted</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1454287369674" scope="document">
+          <attributeName>Quagga Mussels</attributeName>
+          <attributeDefinition>Density of quagga mussels</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>not counted</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1454287369675" scope="document">
+          <attributeName>Zebra Mussels</attributeName>
+          <attributeDefinition>Density of zebra mussels</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>not counted</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1591326847600" scope="document">
+          <attributeName>Dreissena</attributeName>
+          <attributeDefinition>Dreissena sp.  not identified to zebra or quagga musssel</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>category no used that year</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>319</numberOfRecords>
+    </dataTable>
+    <dataTable id="1454288633240" scope="document">
+      <entityName>Taxa list Oneida Benthos.csv</entityName>
+      <physical id="1454288106932" scope="document">
+        <objectName>Taxa list Oneida Benthos.csv</objectName>
+        <size unit="byte">17387</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>ecogrid://knb/cbfs.141.6</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1454288633241" scope="document">
+          <attributeName>TaxaName</attributeName>
+          <attributeDefinition>Taxa name used in database</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Taxa name chose for Oneida</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454288633242" scope="document">
+          <attributeName>Group</attributeName>
+          <attributeDefinition>Group used for Oneida benthos</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Groups defined for Oneida</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454288633243" scope="document">
+          <attributeName>KNBGroup</attributeName>
+          <attributeDefinition>Groups used for Summary Table</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>AdAquInsects</code>
+                    <definition>adult aquatic insects - not reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Snails</code>
+                    <definition>Gastropoda</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Amphipoda</code>
+                    <definition>amphipods</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Other groups</code>
+                    <definition>variety of groups from ostracods to nematods - not reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Isopoda</code>
+                    <definition>isopods</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Trichoptera</code>
+                    <definition>caddisflies</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Ephemeroptera</code>
+                    <definition>mayflies</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Other insects</code>
+                    <definition>variety of other aquatic insect larvae</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Chironomidae</code>
+                    <definition>chironomid larvae and pupae</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Clams</code>
+                    <definition>finger nail clams and unionids</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Exclude</code>
+                    <definition>terrestrial insects and dead shells. Not reported</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Dreissena</code>
+                    <definition>mussels not identified to species</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Leeches</code>
+                    <definition>Hirudinae</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Planaria</code>
+                    <definition>flatworms</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Oligochaeta</code>
+                    <definition>worms</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Quagga Mussel</code>
+                    <definition>quagga mussels identified since 2010</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Zebra Mussel</code>
+                    <definition>zebra mussels</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454288633244" scope="document">
+          <attributeName>Genus</attributeName>
+          <attributeDefinition>Genus when known</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>genus when known</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454288633245" scope="document">
+          <attributeName>Species</attributeName>
+          <attributeDefinition>Species when known</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species when known from ITIS</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454288633246" scope="document">
+          <attributeName>Phylum</attributeName>
+          <attributeDefinition>phytum</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>phylum when known</definition>
+                  <source>ITIS</source>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454288633247" scope="document">
+          <attributeName>Class</attributeName>
+          <attributeDefinition>Class</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Class when known</definition>
+                  <source>ITIS</source>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454288633248" scope="document">
+          <attributeName>Order</attributeName>
+          <attributeDefinition>Order</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Order when known</definition>
+                  <source>ITIS</source>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454288633249" scope="document">
+          <attributeName>Family</attributeName>
+          <attributeDefinition>Family</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Family when known</definition>
+                  <source>ITIS</source>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454288633250" scope="document">
+          <attributeName>TSN</attributeName>
+          <attributeDefinition>Taxonomic identification number from ITIS.gov</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454288633251" scope="document">
+          <attributeName>commonName</attributeName>
+          <attributeDefinition>common name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>common name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1454288633252" scope="document">
+          <attributeName>Notes</attributeName>
+          <attributeDefinition>information on the taxa</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>notes for the taxa</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>112</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

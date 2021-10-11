@@ -1,0 +1,22 @@
+name,value
+File_Name,zebramusselbiometrics_EDI
+Date_Downloaded,2021-10-11 10:55:16
+Data_ID,https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/395/1/2fa4c5e6a54b0a5d9f22b3c92c1c3305
+Data_URL,https://gmn.lternet.edu/mn/v2/object/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Fdata%2Feml%2Fknb-lter-ntl%2F395%2F1%2F2fa4c5e6a54b0a5d9f22b3c92c1c3305
+Metadata_ID,https://pasta.lternet.edu/package/metadata/eml/knb-lter-ntl/395/1
+Metadata_URL,https://gmn.lternet.edu/mn/v2/object/https:%2F%2Fpasta.lternet.edu%2Fpackage%2Fmetadata%2Feml%2Fknb-lter-ntl%2F395%2F1
+Metadata_EML_Version,2.2.0
+File_Description,Zebra mussel Zebra Mussel Body Size and Biomass Biometrics at each sampling
+Dataset_URL,https://search.dataone.org/#view/https://pasta.lternet.edu/package/metadata/eml/knb-lter-ntl/395/1
+Dataset_Title,"Lake Mendota, Wisconsin, USA, Zebra Mussel Body Size and Biomass Biometrics 2018; The zebra mussel invasion of Lake Mendota: New insights into invasive species eruptions and impact; North Temperate Lakes – Long Term Ecological Research program"
+Dataset_StartDate,2018-08-01
+Dataset_EndDate,2018-08-31
+Dataset_Location,"Lake Mendota, Madison, WI, USA"
+Dataset_WestBoundingCoordinate,-89.486789
+Dataset_EastBoundingCoordinate,-89.36654
+Dataset_NorthBoundingCoordinate,43.148805
+Dataset_SouthBoundingCoordinate,43.075119
+Dataset_Taxonomy,Animalia; Bilateria; Protostomia; Lophozoa; Mollusca; Bivalvia; Heterodonta; Veneroida; Dreissenoidea; Dreissenidae; Dreissena; Dreissena polymorpha
+Dataset_Abstract,"We sampled 98 individuals of the zebra mussel (Dreissena polymorpha) population of Lake Mendota from many littoral zone sites in 2018 to create biometric relationships between several metrics of body size and several metrics of biomass, including length, width, height, living weight, wet weight, dry weight, shell weight, shell-free dry weight, and ash-free dry weight. We selected individuals to span a wide range of body sizes and found strong relationships between most combinations of body size and biomass metrics."
+Dataset_Methods,"In the laboratory, three measurements of body size and seven measurements of biomass were captured. First, any foreign material found adhering to the external surface of specimens was completely removed. Body size directional measurements of shell length (L), width (W), and height (H) were recorded for every specimen with the aid of callipers (0.01 mm). Following this, any excess water was removed from surfaces by drying the external shell with tissue paper. Further, using a scalpel blade and tweezers, excess water was removed from the mantle cavity by gently forcing bivalves to gape, taking care not to cut the adductor muscle or damage tissues. Using high-resolution scales, living-weight (LW) was obtained for each specimen. Then each specimen was fully opened, which in most cases involved cutting of the adductor muscles. To remove additional fluid from the mantle and other cavities, each specimen was then placed with the valve gape (flesh) facing downwards onto absorbent tissue, for ~5-10 minutes. A wet-weight (WW) was obtained for each specimen. Following this, the soft tissue was dissected from the shell, then both soft tissue and shell were dried together within an oven (60-72 degreeC) for ~48 hrs, or until they reached a constant weight. Specimens were cooled to room temperature in a desiccator before final weighing. A combined dry-weight (DW) was recorded, as were weights for the soft tissue and shell separately, i.e. shell free dry-weight (SFDW) and dry shell-weight (SW), respectively. Following the establishment of SW, SFDW was calculated subtracting SW from the total DW (i.e. SFDW = DW–SW). To obtain an ash-weight (AW), the soft and hard tissue structures of specimens were incinerated (500–550 degreeC) together within a muffle furnace for 4–6 hrs. In all cases, the ash free dry-weight (AFDW) was then calculated for the entire specimen (soft tissue and shell) by subtracting the AW from DW, i.e. AFDW = DW–AW."
+Dataset_People,Jake; Vander Zanden; Emily; Stanley; Spear; Michael; J; Dane; McKittrick; Adeline; Zamora; Samantha; Schiereck; Petra; Wakker

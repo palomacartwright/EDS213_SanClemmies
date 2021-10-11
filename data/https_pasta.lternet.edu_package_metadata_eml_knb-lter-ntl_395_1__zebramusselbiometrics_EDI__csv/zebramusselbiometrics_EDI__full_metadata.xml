@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="knb-lter-ntl.395.1" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0  https://nis.lternet.edu/schemas/EML/eml-2.2.0/xsd/eml.xsd" system="https://pasta.edirepository.org">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/2147e2f0c880d8afb040dc002f9170f7</alternateIdentifier>
+    <title>Lake Mendota, Wisconsin, USA, Zebra Mussel Body Size and Biomass Biometrics 2018</title>
+    <creator>
+      <individualName>
+        <givenName>Michael</givenName>
+        <givenName>J</givenName>
+        <surName>Spear</surName>
+      </individualName>
+      <organizationName>Center for Limnology, University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>mspear2@wisc.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-1365-3583</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jake</givenName>
+        <surName>Vander Zanden</surName>
+      </individualName>
+      <organizationName>Center for Limnology, University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>mjvanderzand@wisc.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8122-1416</userId>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Dane</givenName>
+        <surName>McKittrick</surName>
+      </individualName>
+      <organizationName>Center for Limnology, University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>dmckittrick@wisc.edu</electronicMailAddress>
+      <role>Field Crew</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Adeline</givenName>
+        <surName>Zamora</surName>
+      </individualName>
+      <organizationName>Center for Limnology, University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>azamora2@wisc.edu</electronicMailAddress>
+      <role>Field Crew</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Samantha</givenName>
+        <surName>Schiereck</surName>
+      </individualName>
+      <organizationName>Center for Limnology, University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>sschiereck@wisc.edu</electronicMailAddress>
+      <role>Field Crew</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Petra</givenName>
+        <surName>Wakker</surName>
+      </individualName>
+      <organizationName>Center for Limnology, University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>wakker@wisc.edu</electronicMailAddress>
+      <role>Field Crew</role>
+    </associatedParty>
+    <pubDate>2020-07-31</pubDate>
+    <abstract>
+      <para>We sampled 98 individuals of the zebra mussel (Dreissena polymorpha) population of Lake Mendota from many littoral zone sites in 2018 to create biometric relationships between several metrics of body size and several metrics of biomass, including length, width, height, living weight, wet weight, dry weight, shell weight, shell-free dry weight, and ash-free dry weight. We selected individuals to span a wide range of body sizes and found strong relationships between most combinations of body size and biomass metrics.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Benthos</keyword>
+      <keyword>Zebra mussels</keyword>
+      <keyword>Invasive species</keyword>
+      <keyword>Body Size</keyword>
+      <keyword>Biomass</keyword>
+      <keyword>Biometrics</keyword>
+      <keyword>Allometry</keyword>
+      <keyword>NTL-LTER</keyword>
+      <keyword>Lake Mendota</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data (\"Data User\" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available \"as is.\" The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Lake Mendota, Madison, WI, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.486789</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.36654</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.148805</northBoundingCoordinate>
+          <southBoundingCoordinate>43.075119</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2018-08-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018-08-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>subkingdom</taxonRankName>
+            <taxonRankValue>Bilateria</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>infrakingdom</taxonRankName>
+              <taxonRankValue>Protostomia</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>superphylum</taxonRankName>
+                <taxonRankValue>Lophozoa</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>phylum</taxonRankName>
+                  <taxonRankValue>Mollusca</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>class</taxonRankName>
+                    <taxonRankValue>Bivalvia</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>subclass</taxonRankName>
+                      <taxonRankValue>Heterodonta</taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>order</taxonRankName>
+                        <taxonRankValue>Veneroida</taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>superfamily</taxonRankName>
+                          <taxonRankValue>Dreissenoidea</taxonRankValue>
+                          <taxonomicClassification>
+                            <taxonRankName>family</taxonRankName>
+                            <taxonRankValue>Dreissenidae</taxonRankValue>
+                            <taxonomicClassification>
+                              <taxonRankName>genus</taxonRankName>
+                              <taxonRankValue>Dreissena</taxonRankValue>
+                              <taxonomicClassification>
+                                <taxonRankName>species</taxonRankName>
+                                <taxonRankValue>Dreissena polymorpha</taxonRankValue>
+                              </taxonomicClassification>
+                            </taxonomicClassification>
+                          </taxonomicClassification>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Jake</givenName>
+        <surName>Vander Zanden</surName>
+      </individualName>
+      <organizationName>Center for Limnology, University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>mjvanderzand@wisc.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-8122-1416</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>In the laboratory, three measurements of body size and seven measurements of biomass were captured. First, any foreign material found adhering to the external surface of specimens was completely removed. Body size directional measurements of shell length (L), width (W), and height (H) were recorded for every specimen with the aid of callipers (0.01 mm). Following this, any excess water was removed from surfaces by drying the external shell with tissue paper. Further, using a scalpel blade and tweezers, excess water was removed from the mantle cavity by gently forcing bivalves to gape, taking care not to cut the adductor muscle or damage tissues. Using high-resolution scales, living-weight (LW) was obtained for each specimen. Then each specimen was fully opened, which in most cases involved cutting of the adductor muscles. To remove additional fluid from the mantle and other cavities, each specimen was then placed with the valve gape (flesh) facing downwards onto absorbent tissue, for ~5-10 minutes. A wet-weight (WW) was obtained for each specimen. Following this, the soft tissue was dissected from the shell, then both soft tissue and shell were dried together within an oven (60-72 degreeC) for ~48 hrs, or until they reached a constant weight. Specimens were cooled to room temperature in a desiccator before final weighing. A combined dry-weight (DW) was recorded, as were weights for the soft tissue and shell separately, i.e. shell free dry-weight (SFDW) and dry shell-weight (SW), respectively. Following the establishment of SW, SFDW was calculated subtracting SW from the total DW (i.e. SFDW = DW–SW). To obtain an ash-weight (AW), the soft and hard tissue structures of specimens were incinerated (500–550 degreeC) together within a muffle furnace for 4–6 hrs. In all cases, the ash free dry-weight (AFDW) was then calculated for the entire specimen (soft tissue and shell) by subtracting the AW from DW, i.e. AFDW = DW–AW.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>The zebra mussel invasion of Lake Mendota: New insights into invasive species eruptions and impact</title>
+      <personnel>
+        <individualName>
+          <givenName>Jake</givenName>
+          <surName>Vander Zanden</surName>
+        </individualName>
+        <electronicMailAddress>mjvanderzand@wisc.edu</electronicMailAddress>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0002-8122-1416</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>Wisconsin Department of Natural Resources AIRD11318</funding>
+      <relatedProject>
+        <title>North Temperate Lakes – Long Term Ecological Research program</title>
+        <personnel>
+          <individualName>
+            <givenName>Emily</givenName>
+            <surName>Stanley</surName>
+          </individualName>
+          <electronicMailAddress>ehstanley@wisc.edu</electronicMailAddress>
+          <userId directory="https://orcid.org">https://orcid.org/0000-0003-4922-8121</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation DEB?1440297</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>zebramusselbiometrics_EDI.csv</entityName>
+      <entityDescription>Zebra mussel Zebra Mussel Body Size and Biomass Biometrics at each sampling</entityDescription>
+      <physical>
+        <objectName>zebramusselbiometrics_EDI.csv</objectName>
+        <size unit="bytes">5733</size>
+        <authentication method="MD5">fdba6716d63cf814f45aba7eb6b1654a</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/395/1/2fa4c5e6a54b0a5d9f22b3c92c1c3305</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>length</attributeName>
+          <attributeDefinition>Length of the individual; axis parallel to opening</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.4</minimum>
+                  <maximum exclusive="false">26.8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>width</attributeName>
+          <attributeDefinition>Width of the individual; axis perpendicular to opening</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.97</minimum>
+                  <maximum exclusive="false">15.31</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>height</attributeName>
+          <attributeDefinition>Height of the individual</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.33</minimum>
+                  <maximum exclusive="false">13.45</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>lw</attributeName>
+          <attributeDefinition>Living weight; taken after live individual opened and emptied of excess water</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.002</minimum>
+                  <maximum exclusive="false">2.1823</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ww</attributeName>
+          <attributeDefinition>Wet weight; taken after opened completely and set to dry on absorbent tissue for 5-10 minutes</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0013</minimum>
+                  <maximum exclusive="false">1.5196</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>dw</attributeName>
+          <attributeDefinition>Dry weight; taken after combined soft tissue + shell weight after dried at 60-72 ºC for ~48 hours</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0012</minimum>
+                  <maximum exclusive="false">1.0102</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sw</attributeName>
+          <attributeDefinition>Dry weight (see dw) of shell only</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0012</minimum>
+                  <maximum exclusive="false">0.9389</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sfdw</attributeName>
+          <attributeDefinition>Dry weight (see dw) of soft-tissue only</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1e-04</minimum>
+                  <maximum exclusive="false">0.0789</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>afdw</attributeName>
+          <attributeDefinition>Ash-free dry weight; difference between dry weight (dw) and ash-weight (AW), which is the weight of the combined soft tissues and shells of specimens after incineration (500–550 °C) within a muffle furnace for 4–6 hours</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4e-04</minimum>
+                  <maximum exclusive="false">0.9016</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>98</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,8 @@
+attributeName,attributeDefinition,definition,measurementScale,domain,unit,precision,numberType,missingValueCode,missingValueCodeExplanation,metadata_pid
+Site,Benthic invertebrate sampling site name,Site name,nominal,textDomain,NA,NA,NA,NA,NA,kgordon.4.78
+Latitude,Latitude of benthic invertebrate sampling site,NA,ratio,numericDomain,degree,.00001,real,-999,site location not known,kgordon.4.78
+Longitude,Longitude of benthic invertebrate sampling sites,NA,ratio,numericDomain,degree,.00001,real,-999,Site location not known,kgordon.4.78
+DepthGroup,Defined as shallow or deep sites,NA,nominal,enumeratedDomain,NA,NA,NA,NA,NA,kgordon.4.78
+Depth,Bottom depth when known,NA,ratio,numericDomain,meter,0.1,natural,-999,bottom depth not known,kgordon.4.78
+SiteNotes,Information about the site,Information about the site,nominal,textDomain,NA,NA,NA,NA,NA,kgordon.4.78
+UsageNotes,Infromation on when site was used,Years sites were used,nominal,textDomain,NA,NA,NA,NA,NA,kgordon.4.78

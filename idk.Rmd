@@ -1,0 +1,37 @@
+---
+title: 'EDS 213: Group Project'
+author: "Paloma Cartwright"
+date: "11/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(here)
+library(metajam)
+library(tidyverse)
+library(janitor)
+```
+
+
+```{r}
+data1_url <- "https://cn.dataone.org/cn/v2/resolve/cbfs.27.9"
+
+path <- here("data")
+
+download_d1_data(data1_url, path)
+```
+```{r}
+data3_url <- "https://cn.dataone.org/cn/v2/resolve/cbfs.140.13"
+
+
+```
+
+```{r}
+# already downloaded 
+data2_url <- "https://cn.dataone.org/cn/v2/resolve/https%3A%2F%2Fpasta.lternet.edu%2Fpackage%2Fdata%2Feml%2Fknb-lter-ntl%2F395%2F1%2F2fa4c5e6a54b0a5d9f22b3c92c1c3305"
+
+download_d1_data(data2_url, path)
+```
+
+

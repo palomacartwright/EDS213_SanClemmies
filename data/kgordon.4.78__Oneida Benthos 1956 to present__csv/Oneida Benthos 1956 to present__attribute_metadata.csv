@@ -1,0 +1,19 @@
+attributeName,attributeDefinition,formatString,dateTimePrecision,measurementScale,domain,unit,precision,numberType,missingValueCode,missingValueCodeExplanation,metadata_pid
+Year,Sampling year,YYYY,1,dateTime,NA,NA,NA,NA,NA,NA,kgordon.4.78
+DepthGroup,Bottom depth category,NA,NA,nominal,enumeratedDomain,NA,NA,NA,NA,NA,kgordon.4.78
+Season,Collection season,NA,NA,nominal,enumeratedDomain,NA,NA,NA,NA,NA,kgordon.4.78
+#SamplingEvents,Number of discrete sampling occasions defined as unique date and site,NA,NA,ratio,numericDomain,number,1,natural,NA,NA,kgordon.4.78
+Chironomidae,"Density of chironomids (larvae, some pupae)",NA,NA,ratio,numericDomain,numberPerMeterSquared,NA,real,NA,NA,kgordon.4.78
+Ephemeroptera,Density of mayfly larvae,NA,NA,ratio,numericDomain,numberPerMeterSquared,NA,real,NA,NA,kgordon.4.78
+Trichoptera,Density of caddisfly larvae,NA,NA,ratio,numericDomain,numberPerMeterSquared,NA,real,NA,NA,kgordon.4.78
+Other insects,"Density of other aquatic insect larvae including dipterans, odonates, megalopterans, coleopterans, hemipterans",NA,NA,ratio,numericDomain,numberPerMeterSquared,NA,real,NA,NA,kgordon.4.78
+Amphipoda,Density of amphipods,NA,NA,ratio,numericDomain,numberPerMeterSquared,NA,real,NA,NA,kgordon.4.78
+Isopoda,Density of isopods,NA,NA,ratio,numericDomain,numberPerMeterSquared,NA,real,NA,NA,kgordon.4.78
+Leeches,Density of leeches - Hirudinae,NA,NA,ratio,numericDomain,numberPerMeterSquared,NA,real,-999,not counted,kgordon.4.78
+Oligochaeta,Density of oligochaetes,NA,NA,ratio,numericDomain,numberPerMeterSquared,NA,real,-999,not counted,kgordon.4.78
+Planaria,Density of flatworms,NA,NA,ratio,numericDomain,numberPerMeterSquared,NA,real,-999,not counted,kgordon.4.78
+Gastropoda,Density of snails,NA,NA,ratio,numericDomain,numberPerMeterSquared,NA,real,-999,not counted,kgordon.4.78
+Clams,Density of clams (fingernail clams and unionids),NA,NA,ratio,numericDomain,numberPerMeterSquared,NA,real,-999,not counted,kgordon.4.78
+Quagga Mussels,Density of quagga mussels,NA,NA,ratio,numericDomain,numberPerMeterSquared,NA,real,-999,not counted,kgordon.4.78
+Zebra Mussels,Density of zebra mussels,NA,NA,ratio,numericDomain,numberPerMeterSquared,NA,real,-999,not counted,kgordon.4.78
+Dreissena,Dreissena sp.  not identified to zebra or quagga musssel,NA,NA,ratio,numericDomain,numberPerMeterSquared,NA,real,-999,category no used that year,kgordon.4.78

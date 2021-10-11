@@ -1,0 +1,6 @@
+code,definition,attributeName,metadata_pid
+deep,Bottom depth over 10 m,DepthGroup,kgordon.4.78
+shallow,Bay sites often less than 6 m,DepthGroup,kgordon.4.78
+Spring,"months March, April, May",Season,kgordon.4.78
+Summer,"months June, July, August",Season,kgordon.4.78
+Fall,"months September, October, November",Season,kgordon.4.78

@@ -7,7 +7,7 @@ Wylie Hampson
 
 ## What is the abundance and impact of zebra mussel populations in US freshwater lakes?
 
-We are looking at data from three separate data sets that were found on DataOne by querying "zebra mussels" and constraining our search to the US. Our goal is to integrate these data sets to answer our question above. We will be using the google drive API to interact with our data sets.
+We are looking at data from three separate data sets that were found on DataOne by querying "zebra mussels" and constraining our search to the US. The locations of our data are from Mendota Lake, Wisconsin and Oneida Lake, New York. Our goal is to integrate these data sets to answer our question above. We will be using the google drive API to interact with our data sets.
 
 The data sets can be found here in our data log:
 

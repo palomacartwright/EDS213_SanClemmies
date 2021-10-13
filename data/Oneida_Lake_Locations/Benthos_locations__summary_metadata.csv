@@ -1,10 +1,10 @@
 name,value
 File_Name,Benthos_locations
-Date_Downloaded,2021-10-11 10:59:01
+Date_Downloaded,2021-10-13 09:03:46
 Data_ID,cbfs.27.9
 Data_URL,https://mn-orc-1.dataone.org/knb/d1/mn/v2/object/cbfs.27.9
 Metadata_ID,kgordon.4.78
-Metadata_URL,https://mn-ucsb-1.dataone.org/knb/d1/mn/v2/object/kgordon.4.78
+Metadata_URL,https://mn-orc-1.dataone.org/knb/d1/mn/v2/object/kgordon.4.78
 File_Description,"Locations of standard benthic sampling sites on Oneida Lake, New York"
 Dataset_URL,https://search.dataone.org/#view/kgordon.4.78
 Dataset_Title,"Benthic invertebrates in Oneida Lake, New York, 1956 to present; Cornell Biological Field Station long term dataset"

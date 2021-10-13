@@ -54,8 +54,18 @@ biometrics_data <- read_d1_files(here("data", "Zebra_mussel_biometrics"))
 
 
 ```{r}
-locations <- read_csv("data/Oneida_lake_locations/Benthos_locations.csv")
+locations <- read_csv("data/Oneida_lake_locations/Benthos_locations.csv") %>% 
+  separate(col = "Longitude", 
+           into = c("Longitude", "DepthGroup", "Depth", "SiteNotes", "UsageNotes"), 
+           sep = ",")
 ```
+
+```{r}
+species <- read_csv("data/Oneida_Benthos_Sp/Oneida Benthos 1956 to present.csv") %>% 
+  clean_names() %>% 
+  separate(col = "zebra_mussels", into = c("zebra_mussles", "dreissena"), sep = ",")
+```
+
 
 
 

@@ -11,6 +11,7 @@ library(here)
 library(metajam)
 library(tidyverse)
 library(janitor)
+library(googledrive)
 ```
 
 
@@ -52,4 +53,12 @@ benthos_data <- read_d1_files(here("data", "kgordon.4.78__Oneida Benthos 1956 to
 
 biometrics_data <- read_d1_files(here("data", "https_pasta.lternet.edu_package_metadata_eml_knb-lter-ntl_395_1__zebramusselbiometrics_EDI__csv"))
 ```
+
+
+```{r}
+drive_upload(media = "random.txt",
+             path = "~/EDS213_ZebraMussels/random.txt
+             ")
+```
+
 

@@ -16,3 +16,5 @@ https://docs.google.com/spreadsheets/d/1leIwuxXen4FxydGR4lDgDvbIYuWkNi5F_t4jENF2
 If new data sets are found, the log will be updated to keep track of all the data sets that we look at, whether they are included in our analysis or not.
 
 The goal of this group project is to practice re-using data and merging data sets to find new insights. We also want to learn about preserving our scientific products on a data repository. 
+
+Week 3 Assignment: https://docs.google.com/document/d/16cyFdTxAM_Xc00adRjUeUfXqyWz_VmAfOPX8AMkvw7k/edit?usp=sharing

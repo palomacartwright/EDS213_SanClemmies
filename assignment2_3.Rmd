@@ -27,21 +27,36 @@ download_d1_data(data1_url, path, dir_name = "Oneida_Lake_Locations")
 # download oneida benthos 1956 to present.csv
 
 data3_url <- "https://cn.dataone.org/cn/v2/resolve/cbfs.140.13"
-
 path<- here("data")
-
 download_d1_data(data3_url, path, dir_name = "Oneida_Benthos_Sp")
-
-
 ```
 
 ```{r,error=TRUE}
 # download zebra mussel body size and biomass biometrics 2018 (Lake Mendota, WI)
 
 data2_url <- "https://cn.dataone.org/cn/v2/resolve/https%3A%2F%2Fpasta.lternet.edu%2Fpackage%2Fdata%2Feml%2Fknb-lter-ntl%2F395%2F1%2F2fa4c5e6a54b0a5d9f22b3c92c1c3305"
-
 download_d1_data(data2_url, path, dir_name = "Zebra_mussel_biometrics")
 ```
+```{r, error=TRUE}
+data4_url <- "https://cn.dataone.org/cn/v2/resolve/https%3A%2F%2Fpasta.lternet.edu%2Fpackage%2Fdata%2Feml%2Fknb-lter-ntl%2F394%2F1%2F2952d4a7dff04b2785604fc6b3344f3b"
+path <- here("data")
+download_d1_data(data4_url, path, dir_name = "NonZebra_Mendota")
+```
+
+```{r, error=TRUE}
+data5_url <- "https://cn.dataone.org/cn/v2/resolve/https%3A%2F%2Fpasta.lternet.edu%2Fpackage%2Fdata%2Feml%2Fknb-lter-ntl%2F393%2F1%2F0c5ab353b07b41253740ab3126350892"
+
+path <- here("data")
+download_d1_data(data5_url, path, dir_name = "Zebra_Mendota")
+```
+
+```{r, error=TRUE}
+data6_url <- "https://cn.dataone.org/cn/v2/resolve/https%3A%2F%2Fpasta.lternet.edu%2Fpackage%2Fdata%2Feml%2Fknb-lter-ntl%2F129%2F27%2Fcba9ed12834b8f315d6b10675bb60c5a"
+path <- here("data")
+
+download_d1_data(data6_url, path, dir_name = "Mendota_Water")
+```
+
 
 ```{r}
 
@@ -50,6 +65,13 @@ benthos_locations <- read_d1_files(here("data", "Oneida_Lake_locations"))
 benthos_data <- read_d1_files(here("data", "Oneida_Benthos_Sp"))
 
 biometrics_data <- read_d1_files(here("data", "Zebra_mussel_biometrics"))
+
+non_zebra_data <- read_d1_files(here("data", "NonZebra_Mendota"))
+
+zebra_mendota_data <- read_d1_files(here("data", "Zebra_Mendota"))
+
+mendota_water_data <- read_d1_files(here("data", "Mendota_Water"))
+
 ```
 
 
@@ -78,6 +100,18 @@ biometrics <- read_csv("data/zebra_mussel_biometrics/zebramusselbiometrics_EDI.c
 
 ```
 
+```{r}
+zoobenthos <- read_csv("data/NonZebra_Mendota/zoobenthos_EDI.csv") %>% 
+  clean_names()
+```
+```{r}
+zebra_mendota <- read_csv("data/Zebra_Mendota/zebramusseldensity_EDI.csv") %>% 
+  clean_names()
+```
+```{r}
+mendota_water <- read_csv("data/Mendota_Water/ntl129_1_v5.csv") %>% 
+  clean_names()
+```
 
 
 

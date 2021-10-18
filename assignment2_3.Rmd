@@ -103,10 +103,9 @@ biometrics <- read_csv("data/zebra_mussel_biometrics/zebramusselbiometrics_EDI.c
 ```{r}
 zoobenthos <- read_csv("data/NonZebra_Mendota/zoobenthos_EDI.csv") %>% 
   clean_names() %>% 
-  mutate(year = lubridate::as_date(year)) %>% 
+  mutate(year = as.Date(as.character(year), format = "%Y")) %>% 
   mutate(year = lubridate::year(year)) %>% 
   select(year, month, depth, transect, replicate, number, biomass, species_level, phylum_order, area)
-  
   
 ```
 ```{r}
@@ -115,6 +114,7 @@ zebra_mendota <- read_csv("data/Zebra_Mendota/zebramusseldensity_EDI.csv") %>%
   mutate(year = lubridate::year(date)) %>% 
   select(transect, depth, replicate, totalsample_count, area, density_m2, date, year)
 ```
+
 ```{r}
 mendota_water <- read_csv("data/Mendota_Water/ntl129_1_v5.csv") %>% 
   clean_names() %>% 
@@ -123,7 +123,13 @@ mendota_water <- read_csv("data/Mendota_Water/ntl129_1_v5.csv") %>%
   select(year, sampledate, avg_air_temp, avg_chlor, avg_do_raw)
   
 ```
+
 ```{r}
+mid_data <- full_join(zoobenthos, zebra_mendota, 
+                      by = c("year", "transect", "depth", "area", "replicate")) 
+
+complete_data <- full_join(mid_data, mendota_water, by = "year")
+
 
 ```
 

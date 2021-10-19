@@ -15,6 +15,7 @@ library(janitor)
 ```
 
 
+
 ```{r, error=TRUE}
 # download location data for Benthic invertebrates in Oneida Lake, New York, 1956 to present
 
@@ -105,14 +106,14 @@ zoobenthos <- read_csv("data/NonZebra_Mendota/zoobenthos_EDI.csv") %>%
   clean_names() %>% 
   mutate(year = as.Date(as.character(year), format = "%Y")) %>% 
   mutate(year = lubridate::year(year)) %>% 
-  select(year, month, depth, transect, replicate, number, biomass, species_level, phylum_order, area)
+  select(year, depth, transect, replicate, number, biomass, species_level, phylum_order, area)
   
 ```
 ```{r}
 zebra_mendota <- read_csv("data/Zebra_Mendota/zebramusseldensity_EDI.csv") %>% 
   clean_names() %>% 
   mutate(year = lubridate::year(date)) %>% 
-  select(transect, depth, replicate, totalsample_count, area, density_m2, date, year)
+  select(transect, depth, replicate, totalsample_count, area, density_m2, year)
 ```
 
 ```{r}
@@ -120,7 +121,9 @@ mendota_water <- read_csv("data/Mendota_Water/ntl129_1_v5.csv") %>%
   clean_names() %>% 
   filter(year4 >= 2016,  year4 <= 2018) %>%
   rename(year = year4) %>% 
-  select(year, sampledate, avg_air_temp, avg_chlor, avg_do_raw)
+  select(year, sampledate, avg_air_temp, avg_chlor, avg_do_raw) %>% 
+  group_by(year) %>% 
+  summarize(yearly_temp_avg = mean(avg_air_temp, na.rm = TRUE))
   
 ```
 
@@ -129,7 +132,6 @@ mid_data <- full_join(zoobenthos, zebra_mendota,
                       by = c("year", "transect", "depth", "area", "replicate")) 
 
 complete_data <- full_join(mid_data, mendota_water, by = "year")
-
 
 ```
 

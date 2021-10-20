@@ -137,4 +137,6 @@ mid_data <- full_join(zoobenthos, zebra_mendota,
 
 complete_data <- full_join(mid_data, mendota_water, by = "year")
 
+write_csv(complete_data, file = "zebral_mussel_data.csv")
+
 ```

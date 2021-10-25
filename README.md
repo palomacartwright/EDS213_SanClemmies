@@ -1,4 +1,4 @@
-# EDS213_SanClemmies
+# EDS 213: San Clemmies
 
 Paloma Cartwright
 Mia Forsline
